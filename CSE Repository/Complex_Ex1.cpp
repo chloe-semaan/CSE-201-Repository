@@ -7,12 +7,12 @@ private:
 
   public:
     void setvalue(){
-        cin>>real;
-        cin>>imaginary;
+        std::cin>>real;
+        std::cin>>imaginary;
     }
     Complex();
     void display(){
-        cout<<real<<"+"<<imaginary<<"i"<<endl;
+        std::cout<<real<<"+"<<imaginary<<"i"<<std::endl;
     }
     void sum(Complex c1, Complex c2){
         real=c1.real+c2.real;
